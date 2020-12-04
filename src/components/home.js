@@ -1,5 +1,12 @@
 import React from 'react';
-import {View, FlatList, StyleSheet, Text, StatusBar} from 'react-native';
+import {
+  View,
+  FlatList,
+  StyleSheet,
+  Text,
+  StatusBar,
+  TouchableHighlight,
+} from 'react-native';
 
 const DATA = [
   {
@@ -16,9 +23,15 @@ const DATA = [
   },
 ];
 
+const onPress = () => {
+  console.log('1');
+};
+
 const Item = ({title}) => (
   <View style={styles.item}>
-    <Text style={styles.title}>{title}</Text>
+    <TouchableHighlight onPress={onPress}>
+      <Text style={styles.title}>{title}</Text>
+    </TouchableHighlight>
   </View>
 );
 
