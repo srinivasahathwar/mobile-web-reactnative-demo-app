@@ -45,7 +45,6 @@ myApp
 
 ## Resources
 
-- [React Native for Web (react-native-web)](https://github.com/necolas/react-native-web)
 - [React](https://reactjs.org/)
 - [React Native](http://facebook.github.io/react-native/)
 - [Create React App](https://github.com/facebook/create-react-app)
