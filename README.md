@@ -17,7 +17,7 @@ git clone https://github.com/srinivas737071/mobile-web-reactnative-demo-app.git
 # cd into your <project-directory>
 $ cd myApp
 #install node modules
-npm install 
+$ npm install 
 # Run Web/Ios/Android development
 # Web
 $ npm run web
