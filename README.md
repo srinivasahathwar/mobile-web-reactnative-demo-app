@@ -9,19 +9,11 @@
 
 ### A simple CLI tool to start your React Native Web project to develop same app for IOS Android and Web
 
-<p align="center" >
-<img width="300"  src="https://raw.githubusercontent.com/orYoffe/create-react-native-web-app/master/template/src/logo.png">
-</p>
-
 ## Installation
 
 ```sh
-# Run create-react-native-web-app <project-directory>
-$ npx create-react-native-web-app myApp
-
-# if you previously installed this package globaly run this command first to uninstall the previous version:
-# npm uninstall -g create-react-native-web-app
-
+# Clone the repo 
+git clone https://github.com/srinivas737071/mobile-web-reactnative-demo-app.git
 # cd into your <project-directory>
 $ cd myApp
 
