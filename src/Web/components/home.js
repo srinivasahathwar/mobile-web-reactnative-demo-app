@@ -19,19 +19,12 @@ const onPress = () => {
   console.log('1');
 };
 
-const Item = ({title}) => (
-  <div onClick={onPress}>
-   {title}
-  </div>
-);
-
 const Home = props => {
-  return (
-    data.map((item, index) => (
-      <div onClick={onPress} key={index}>
+  return data.map((item, index) => (
+    <div onClick={onPress} key={index}>
       {item.title}
-     </div>     
-    ))
-  )};
+    </div>
+  ));
+};
 
 export default Home;
