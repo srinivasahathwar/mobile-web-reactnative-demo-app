@@ -42,10 +42,3 @@ myApp
 └── src
     └── project code
 ```
-
-## Resources
-
-- [React](https://reactjs.org/)
-- [React Native](http://facebook.github.io/react-native/)
-- [Create React App](https://github.com/facebook/create-react-app)
-- [Create React Native App](https://github.com/react-community/create-react-native-app)
