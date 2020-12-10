@@ -13,13 +13,13 @@ const Login = props => {
     <View style={styles.container}>
       <TextInput
         value={username}
-        onChangeText={getname => setusername({getname})}
+        onChangeText={getname => setusername(getname)}
         placeholder={'Username'}
         style={styles.input}
       />
       <TextInput
         value={password}
-        onChangeText={getpassword => setpassword({getpassword})}
+        onChangeText={getpassword => setpassword(getpassword)}
         placeholder={'Password'}
         secureTextEntry={true}
         style={styles.input}
